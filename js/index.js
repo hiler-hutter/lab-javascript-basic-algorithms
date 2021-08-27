@@ -82,13 +82,6 @@ for(let i = 0; i < lorem.length - 1; i++){
 }
 console.log(wordCount);
 
-//this way is for count the words of lorem
-/* let counter = 1;
-while(counter < lorem.length){
-  console.log(counter);
-  counter++
-} */
-
 //Make your program count the number of times the Latin word et appears.
 let foundEt = 0;
 
@@ -99,3 +92,7 @@ for(let i = 0; i < lorem.length; i++) {
 }
 
 console.log(foundEt)
+
+//Create a new variable phraseToCheck and have it contain some string value. Write a code that will check if the value we assigned to this variable is a Palindrome.
+
+function isPalindrome(str)
